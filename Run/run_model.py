@@ -4,7 +4,7 @@ import numpy as np
 
 # Path to the pre-trained XGBoost model (JSON format)
 # IMPORTANT: Ensure this path points to your specific model file
-MODEL_PATH = "xgboost_model_default.json"
+MODEL_PATH = "Run/xgboost_model_default.json"
 
 # Load the saved XGBoost model
 best_model = xgb.Booster()
